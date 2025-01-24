@@ -1,2 +1,2 @@
 # ZeroPromptHG: A Zero-shot Therapeutic Method with Multi-task Pretraining and Prompt Learning Method in Heterogeneous Graph
-the data in 
+the data in https://drive.google.com/file/d/1rkXlM8GuCwTyEQDJYq6lSIK6a2ypiO4p/view?usp=drive_link
