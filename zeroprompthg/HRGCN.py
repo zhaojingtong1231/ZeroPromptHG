@@ -1,10 +1,4 @@
-"""
-  -*- encoding: utf-8 -*-
-  @Author: zhaojingtong
-  @Time  : 2024/11/04 12:19
-  @Email: 2665109868@qq.com
-  @function
-"""
+
 import dgl
 from dgl.ops import edge_softmax
 import math

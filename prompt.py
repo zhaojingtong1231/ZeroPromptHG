@@ -1,10 +1,3 @@
-"""
-  -*- encoding: utf-8 -*-
-  @Author: zhaojingtong
-  @Time  : 2024/10/25 18:40
-  @Email: 2665109868@qq.com
-  @function
-"""
 
 import torch
 from zeroprompthg import TxData, ZeroPrompt

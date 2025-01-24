@@ -7,26 +7,6 @@ import torch
 import torch.nn as nn
 import math
 
-# class HeteroDiscriminator(nn.Module):
-#     def __init__(self, n_hidden, ntypes):
-#         super(HeteroDiscriminator, self).__init__()
-#         # 为每种节点类型创建一个判别器的权重矩阵
-#         self.weight = nn.ParameterDict({
-#             ntype: nn.Parameter(torch.Tensor(n_hidden, n_hidden)) for ntype in ntypes
-#         })
-#         self.reset_parameters()  # 初始化参数
-#
-#     def reset_parameters(self):
-#         # 使用 Xavier 均匀初始化每个权重矩阵
-#         for param in self.weight.values():
-#             nn.init.xavier_uniform_(param.data)
-#
-#     def forward(self, features, readout):
-        # 对每种节点类型应用判别器
-        # scores = {}
-        # for ntype, feat in features.items():
-        #     scores[ntype] = torch.matmul(feat, torch.matmul(self.weight[ntype], readout[ntype]))
-        # return scores
 
 class HeteroDiscriminator(nn.Module):
     def __init__(self, n_h):

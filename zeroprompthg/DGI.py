@@ -1,10 +1,4 @@
-"""
-  -*- encoding: utf-8 -*-
-  @Author: zhaojingtong
-  @Time  : 2024/11/04 14:10
-  @Email: 2665109868@qq.com
-  @function
-"""
+
 import torch
 import torch.nn as nn
 from .layers import  AvgReadout, HeteroDiscriminator
